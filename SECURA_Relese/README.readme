@@ -1,0 +1,32 @@
+# Experiment Guidelines  
+
+## Notice  
+In our earlier experiment, **"SEUCRA"** was referred to as **CABR-LoRA**.  
+- We use `Traintype: "CABR-LoRA"` to denote **M1 SECURA**.  
+- `Traintype: "CABR-LoRA_L"` corresponds to the **M2 merge method**.  
+- If you would like to test the basic **CABR-LoRA_Only**, please set `Traintype` to `"CABR-LoRA_Only"`.  
+
+Thank you for your understanding.  
+
+---
+
+## About the Experiment  
+As mentioned in our paper, most of our datasets are available on **BBM** and **Hugging Face**, so we will not upload them here.  
+
+Our experiments consist of five main parts:  
+
+- **EXP0/AddingTestSVDAnalysis** → **SVD Norm Analysis**  
+- **EXP2** → **Performance Comparison of LoRA Variants**  
+- **EXP3** → **Gradient-Based Experiment**  
+- **EXP4** → **Knowledge Retention at 1e-3 under Different LoRA Variants**  
+- **EXP5** → **Continuous Training with Different Knowledge Retention Methods**  
+
+### **Experiment Setup**  
+For each experiment setup, please modify `src/Processer` and adjust the **vocab_size** parameter in `to_one_hot`.  
+
+---
+
+## Final Note  
+As an undergraduate student working independently, without any teaching assistants or collaborators, it has been challenging to manage daily email inquiries. However, if I come across your email, I will respond as soon as possible.  
+
+Thank you for your patience! 🚀  
