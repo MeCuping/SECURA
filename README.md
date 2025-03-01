@@ -1,6 +1,6 @@
 # SECURA: Stable and Efficient LoRA Fine-Tuning  
 
-![SECURA Principle](principle_diagram.png)  
+![SECURA Principle](Update_SECURA.jpg)  
 
 ## Overview  
 This repository contains the experimental setup and evaluation framework for **SECURA (CABR + SigNorm)**, a novel approach to LoRA fine-tuning that improves gradient stability and mitigates catastrophic forgetting.  
