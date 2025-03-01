@@ -9,7 +9,7 @@ SECURA integrates **CABR** with **SigNorm**, ensuring more stable parameter upda
 
 ---
 
-## Experiment Guidelines  
+##🔬 Experiment Guidelines  
 
 ### **Important Notice**  
 In our earlier experiments, **"SECURA"** was referred to as **CABR-LoRA**. To maintain consistency, we use the following notation in our codebase:  
@@ -20,7 +20,7 @@ In our earlier experiments, **"SECURA"** was referred to as **CABR-LoRA**. To ma
 
 ---
 
-## About the Experiment  
+##📊 About the Experiment  
 As mentioned in our paper, most of our datasets are available on **BBM** and **Hugging Face**, so we will not upload them here.  
 
 Our experiments are divided into five main parts:  
@@ -31,7 +31,7 @@ Our experiments are divided into five main parts:
 - **EXP4** → **Knowledge Retention at 1e-3 under Different LoRA Variants**  
 - **EXP5** → **Continuous Training with Different Knowledge Retention Methods**  
 
-### **Experiment Setup**  
+###🛠 **Experiment Setup**  
 To set up and run the experiments, follow these steps:  
 
 1. Clone the repository and install dependencies:  
@@ -45,3 +45,7 @@ Adjust the vocab_size parameter in to_one_hot based on your dataset.
 
 3. Run the experiment with the selected Traintype, by using ExpStart.py
 
+###📬 Contact & Acknowledgment
+This research was conducted independently as an undergraduate project. Due to time constraints, email responses may be delayed—but I will get back to you as soon as possible! 🚀
+
+Thank you for your support!
