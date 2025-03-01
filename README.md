@@ -1,4 +1,4 @@
-# SECURA: Stable and Efficient LoRA Fine-Tuning  
+# SECURA: Sigmoid-Enhanced CUR Decomposition with Uninterrupted Retention and Low-Rank Adaptation in Large Language Models  
 
 ![SECURA Principle](Update_SECURA.jpg)  
 
