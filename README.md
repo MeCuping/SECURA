@@ -49,3 +49,7 @@ Adjust the vocab_size parameter in to_one_hot based on your dataset.
 This research was conducted independently as an undergraduate project. Due to time constraints, email responses may be delayed—but I will get back to you as soon as possible! 🚀
 
 Thank you for your support!
+
+---
+
+25/3/4: We updated SECUR v4 pre-print paper on arxiv mainly changed SigNorm to a more suitible name 'S-MagNorm'. Adding the gradient comparision between SECURA and CABR-LoRA shows the devotion of S-MagNorm and CABR-LoRA.
